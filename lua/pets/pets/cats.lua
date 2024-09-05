@@ -1,16 +1,16 @@
 return {
     next_actions = {
-        idle = { "idle", "swipe", "walk", "walk_left", "walk_fast", "walk_fast_left" },
+        idle = { "idle", "walk", "walk_fast", "walk_fast_left" },
         run = { "run", "walk", "walk_fast", "run_left" },
-        swipe = { "swipe", "walk", "idle", "walk_left" },
+        swipe = { "swipe", "walk" },
         walk = { "walk", "idle", "run", "walk_fast", "walk_left" },
-        walk_fast = { "walk_fast", "walk", "run", "walk_fast_left", "idle" },
+        walk_fast = { "walk_fast", "walk", "run", "idle" },
         run_left = { "run_left", "run", "walk_fast_left", "walk_left" },
-        walk_fast_left = { "walk_fast_left", "run_left", "walk_fast", "walk_left", "idle" },
-        walk_left = { "walk_left", "walk_fast_left", "run_left", "walk", "idle" },
+        walk_fast_left = { "walk_fast_left", "run_left", "walk_fast", "walk_left" },
+        walk_left = { "walk_left", "walk_fast_left", "run_left", "walk" },
     },
-    idle_actions = { "idle", "swipe" },
-    first_action = "idle",
+    idle_actions = { "idle"},
+    first_action = "run",
     movements = {
         right = {
             normal = { "walk_fast" },
