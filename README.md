@@ -4,7 +4,9 @@ Pets.nvim is a plugin that provides the missing core functionality of showing li
 It relies on the [kitty graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) and [hologram.nvim](https://github.com/edluffy/hologram.nvim) to be able to display images in a terminal window.
 As you might know the plugin is heavily inspired by [vscode-pets](https://github.com/tonybaloney/vscode-pets/tree/master/media).
 If you like the art for the pets, check out the [Credits](#-Credits) section.
+<br>
 
+*this fork has cats added as additional pets . In order to use them use kushall09/pets.nvim on your configs ...
 <!-- panvimdoc-ignore-start -->
 ![pets.gif](./pets.gif)
 <!-- panvimdoc-ignore-end -->
@@ -105,6 +107,11 @@ These are all the available commands:
 |rubber duck|yellow|
 |snake|green|
 |zappy|yellow|
+|*cats|bcat,hcat,wcat|
+<br>
+bcat ==> black cat<br>
+hcat ==> cat with heart or sth<br>
+wcat ==> white cat<br>
 
 <!-- panvimdoc-ignore-start -->
 ![bar.png](./bar.png)
